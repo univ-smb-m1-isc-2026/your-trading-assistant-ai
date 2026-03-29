@@ -27,9 +27,6 @@ jobs:
           - name: Install dependencies
             run: pip install -r requirements.txt
 
-          - name: Build dataset
-            run: python src/build_dataset.py
-
           - name: Train model
             run: python src/train.py
 
