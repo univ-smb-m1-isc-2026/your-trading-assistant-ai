@@ -1,4 +1,3 @@
-data/
 artifacts/model.joblib
 artifacts/test_dataset.csv
 artifacts/train.log
